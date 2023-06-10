@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <title>橙色農作休閒果園</title>
+    <meta name="keywords" content="fruit,fruit product,orchard">
+    <meta name="description" content="橙色農作休閒果園產品介紹及訂購網站">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" media="all">
+    <!--首頁圖示-->
+    <!--iOS Safari、Andirod標準瀏覽器 -->
+    <link rel="logo-remove" href="img/logo-remove.png">
+    <!--Andirod Chrome-->
+    <link rel="icon" sizes="192x192" href="img/logo-remove.png">
+</head>
+
+<body>
+    <header>
+        <h1><pre class=title>橙色農作休閒果園</pre></h1>
+        <p class="describe">採果一律採預約制，預約專線：0937-381-765</p>
+    </header>
+            <nav class="menu">
+            <ol>
+            <li><a href="index.html">果園介紹</a></li>
+            <li><a href="產品介紹.html" >產品介紹</a></li>
+            <li><a href="作物介紹.html">作物介紹</a></li>
+            <li><a href="#official">官方帳號</a></li>
+            <li><a href="訂購表單.html">訂購表單</a></li>
+            </ol>
+            </nav>
+    <main id="content">
+    <form id="profile" action="#" method="post">
+            <h2>橙色農作休閒果園產品訂購</h2>
+            <p class="hint">如遇問題請洽：0937-381-765</p>
+            <table class="entrytable">
+                <caption>訂購人資訊</caption>
+                    <tr>
+                        <th>姓名*</th>
+                        <td><input type ="text" name="name" required autofocus placeholder="王大明" required></td>
+                    </tr>
+                    <tr>
+                        <th>電話*</th>
+                        <td><input type ="tel" name="tel" placeholder="0912345678" required></td>
+                    </tr>
+                    <tr>
+                        <th>寄送地址*</th>
+                        <td><input type ="text" name="address" placeholder="雲林縣斗六市大學路3段123號" required></td>
+                    </tr>
+                    <tr>
+                        <th>電子郵件*</th>
+                        <td><input type ="email" name="email" placeholder="sample@gemail.com" required></td>
+                    </tr>
+            </table>
+            <table class="entrytable">
+                <caption>訂購品項</caption>
+                    <th>品名</th><th>數量</th>
+                    <tr>
+                        <td>芒果乾</td>
+                        <td rowspan="2"><input type="number" name="num" placeholder="1"></td>
+                    </tr>
+                    <tr>
+                        <td>NTD150/包</td>
+                    </tr>
+                    <tr>
+                        <td>橙餅</td>
+                        <td rowspan="2"><input type="number" name="num" placeholder="1"></td>
+                    </tr>
+                    <tr>
+                        <td>NTD100/片</td>
+                    </tr>
+                    <tr>
+                        <td>仙草</td>
+                        <td rowspan="2"><input type="number" name="num" placeholder="1"></td>
+                    </tr>
+                    <tr>
+                        <td>NTD100/包</td>
+                    </tr>
+                    <tr>
+                        <td>橘子果醬</td>
+                        <td rowspan="2"><input type="number" name="num" placeholder="1"></td>
+                    </tr>
+                    <tr>
+                        <td>NTD200/瓶</td>
+                    </tr>
+                    <tr>
+                        <td>火龍果果醬</td>
+                        <td rowspan="2"><input type="number" name="num" placeholder="1"></td>
+                    </tr>
+                    <tr>
+                        <td>NTD200/瓶</td>
+                    </tr>
+                <tr>
+                    <th>備註</th>
+                    <td><textarea name="comment" rows="4" cols="40"></textarea></td>
+                </tr>
+            </table>
+        <div class="entryBtns">
+            <input type="reset" value="清除重填">
+            <input type="submit" value="送出">
+        </div>
+    </form>
+    </main>
+</body>
