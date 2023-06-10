@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/earlyaccess/cwtexyen.css');
+
+/*關閉裝置自動調整文字大小*/
+html{
+    -webkit-text-size-adjust: 100%;
+}
+
+body{
+    font-family: 'Josefin Sans','cwTeXYen', sans-serif;
+    background-image:url(img/logo-remove.png), url(img/banner.jpg);
+    background-color: #eec18a;
+    background-repeat: no-repeat, repeat-x, repeat-x;
+    background-position: right 12px top 5px, center top, top;
+    background-size: 200px 200px, 450px 200px, cover;
+    }
+
+/*標題設定*/
+.title{
+    width: auto;
+    margin: 20px auto 0px;
+    padding: 15px 20px 40px;
+    color: #fff;
+    font-size: 60px;
+    border-radius:85px 85px 0px 0px;
+    text-shadow:2px 2px 1px #28292b;
+    text-align: center;
+    position:fixed;
+    top: 0px;
+    left: 300px;
+    right: 300px;
+    background-color:#f8af43;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+    }
+
+/*標題描述*/
+.describe{
+    padding: 15px 0px;
+    margin: 3px auto;
+    font-size: 21px;
+    color: #28292b;
+    text-align: center;
+    position: fixed;
+    top: 95px;
+    left: 10px;
+    right: 10px;
+}
+
+/*連結顏色設定*/
+a:link {
+    color: #fff;
+    }
+a:hover{
+    color: #af9c46;
+    
+    }
+a:visited{
+    color: #bababa;
+}
+
+/*導覽樣式*/
+.menu{
+    margin: 15px 25px 0px;
+    padding: 25px;
+    text-align: center;
+    position: fixed;
+    top: 130px;
+    left: 10px;
+    right: 10px;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    width: 180px;
+    margin: 0 10px;
+    text-align: center;  
+}
+.menu a{
+    display: block;
+    padding: 10px 25px;
+    background: #f8af43;
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgba(178, 83, 7,0.8);
+    color: #fff;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: #fb8c04;
+}
+
+/*標題、導覽背景設定*/
+.banner{
+    background-color: rgba(248,248,248,0.3);
+}
+
+/*內容版面設定*/
+#content{
+    margin: 210px 25px 0px;
+    padding: 5px 40px 5px;
+    border-radius: 13px;
+    background-color: rgba(248, 248, 248, 0.2);
+}
+
+/*次標題設定*/
+h2{
+    width: auto;
+    padding: 10px 25px;
+    background: rgba(252, 170, 47, 0.5);
+    border-right: 25px double #fb8c04;
+    border-left: 25px double #fb8c04;
+    color: #28292b;
+    font-size: 200%;
+    text-align: center;
+}
+
+/*產品介紹 作物介紹*/
+.introd{
+    width: 80%;
+    margin: 0px auto 15px;
+    border:1px solid #C0C0C0;
+    border-collapse:collapse;
+    text-align:center;
+    padding:10px;
+    font-size: 150%;
+}  
+.introd th {
+    border:1px solid #3b651b;
+    padding:10px;
+    background:#3b651b;
+    color: #fff;
+}
+
+.introd td {
+    border:1px solid #3b651b;
+    text-align:center;
+    padding:10px;
+}
+
+/*官方帳號文字樣式*/
+#OfA{
+    clear: both;
+    
+}
+.SNS{
+    margin: 0px 25px 25px;
+    padding: 1px 40px 1px;
+    text-align: center;
+    clear: both;
+}
+.SNS li{
+    list-style-type: none;
+    display: inline-block;
+    width: 150px;
+    margin: 0 10px;
+    text-align: center;    
+}
+.SNS a{
+    display: block;
+    padding: 10px 25px;
+    background: #fb8c04;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+.SNS a:hover{
+    background: #f8af43;
+}
+/*頁尾設定*/
+footer{
+    color: #fb8c04;
+    text-align: center;
+    clear: both;
+}
+/*表單樣式*/
+.hint{
+    text-align: center;
+    font-size: 150%;
+}
+/*表格設定*/
+.entrytable {
+    margin: 30px auto 20px;
+    width: 40em;
+    border: 2px solid #5a9926;
+    border-collapse: collapse;
+    font-size: 150%;
+}
+.entrytable caption {
+    width:auto;
+    background: rgba(88, 154, 39, 0.5);
+    border-right: 25px double #589a27;
+    border-left: 25px double #589a27;
+    margin: 10px 0px;
+    padding: 25px auto 0px;
+    text-align: center; 
+    font-size: 140%;
+    color: #fff;
+}
+.entrytable th {
+    width: 150px;
+    border: 2px solid #3b651b;
+    margin: 5px;
+    padding: 25px ;
+    text-align: center;
+    color: #fff;
+    background-color: #5a9926;
+}
+.entrytable td {
+    border: 2px solid #5a9926;
+    margin: 5px;
+    padding: 20px;
+    background-color: #efeef3;
+}
+
+
+/*輸入設定*/
+.entrytable input[type="text"],.entrytable input[type="tel"],.entrytable input[type="email"],
+.entrytable input[type="number"],.entrytable textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.entrytable input[type="text"]:focus,.entrytable input[type="tel"],.entrytable input[type="email"]:focus,.entrytable input[type="number"],.entrytable textarea:focus {
+    background-color: #ecefff;
+    outline: none;
+    border-right: 5px solid #ff770b;
+}
+
+/*指標設定*/
+label,
+input,
+textarea,
+select{
+    cursor: pointer;
+}
+/*按鈕樣式*/
+.entryBtns {
+    text-align: center;
+}
+.entryBtns input {
+    width: 100px;
+    margin: 10px 10px 30px;
+    padding: 10px;
+    background: #fff;
+    border: 2px solid #b26907;
+    border-radius: 10px;
+    font-size: 1em;
+    -webkit-appearance: none;
+}
+.entryBtns input[type="submit"]{
+    color: #fff;
+    background: #ff970a;
+}
+.entryBtns input:hover {
+    opacity: 0.8;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
